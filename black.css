@@ -872,7 +872,7 @@ ts-message .meta.msg_inline_img_toggler .ts_icon_dropbox, ts-message .meta.msg_i
 
 ts-message .pinned_item_message_header { color: #949494; }
 
-ts-message .mention { background: #FFF3B8; border: 1px solid #828282; border-radius: 3px; color: #e6e6e6; padding: 0 3px; }
+ts-message .mention { background: #FFF3B8; border: 1px solid #828282; border-radius: 3px; color: #000; padding: 0 3px; }
 
 ts-message.show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.15); }
 
@@ -2006,11 +2006,11 @@ input.p-emoji_picker__input:focus { border-color: #545454; box-shadow: none; }
 
 .current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #949494; }
 
-.rxn { background: #D0D0D0; border: 1px solid #545454; }
+.rxn { background: #FFF; border: 1px solid #545454; }
 
 .rxn.active, .rxn:hover { border-color: #424242; }
 
-.rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count { color: #e6e6e6; }
+.rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count { color: #000; }
 
 .rxn.user_reacted { background-color: #D0D0D0; border-color: rgba(130, 130, 130, 0.4) !important; }
 
