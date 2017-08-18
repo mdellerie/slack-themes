@@ -2006,17 +2006,17 @@ input.p-emoji_picker__input:focus { border-color: #545454; box-shadow: none; }
 
 .current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #949494; }
 
-.rxn { background: #FFF; border: 1px solid #545454; }
+.rxn { background: #222; border: 1px solid #545454; }
 
 .rxn.active, .rxn:hover { border-color: #424242; }
 
-.rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count { color: #000; }
+.rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count { color: #4fb0fc; }
 
 .rxn.user_reacted { background-color: #D0D0D0; border-color: rgba(130, 130, 130, 0.4) !important; }
 
-.rxn.user_reacted .emoji_rxn_count { color: #e6e6e6; }
+.rxn.user_reacted .emoji_rxn_count { color: #FFF; }
 
-.rxn .emoji_rxn_count { color: #e6e6e6; }
+.rxn .emoji_rxn_count { color: #FFF; }
 
 .rxn.menu_rxn .ts_icon { color: rgba(230, 230, 230, 0.25); }
 
