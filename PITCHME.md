@@ -1,14 +1,15 @@
-# slack-themes
+# Flux
 
-just append the following to app.asar.unpacked/src/static/ssb-interop.js:
+An application architecture for React
 
-```
-document.addEventListener('DOMContentLoaded', function() {
- $.ajax({
-   url: 'https://raw.githubusercontent.com/mdellerie/slack-themes/master/black.css',
-   success: function(css) {
-     $("<style></style>").appendTo('head').html(css);
-   }
- });
-});
-```
+---
+
+### Flux Design
+
+- Dispatcher: Manages Data Flow
+- Stores: Handle State & Logic
+- Views: Render Data via React
+
++++
+
+![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
