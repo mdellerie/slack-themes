@@ -11,7 +11,7 @@ cd /Applications/Slack.app/Contents/
 cd ./Resources/app.asar.unpacked/src/static
 vi ssb-interop.js
 ```
-- Edit `ssb-interop.js to add the following lines:
+- Edit `ssb-interop.js` to add the following lines:
 
 
 ```js
