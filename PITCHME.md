@@ -1,15 +1,33 @@
-# Flux
+# Slack Themes
 
-An application architecture for React
+How to turn slack app into the Dark :)
 
 ---
 
-### Flux Design
+## How to
+- Go to /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static
+- Edit ssb-interop.js to add the following lines:
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+
+```
+document.addEventListener('DOMContentLoaded', function() {
+ $.ajax({
+   url: 'https://raw.githubusercontent.com/mdellerie/slack-themes/master/black.css',
+   success: function(css) {
+     $("<style></style>").appendTo('head').html(css);
+   }
+ });
+});
+```
+
+---
+
+## Preview
+
+![Screenshot](screenshot.png)
 
 +++
+Don't hesitate to fork the CSS to customize the darkness :)
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+---
+Thanks for watching :)
