@@ -5,8 +5,11 @@ How to turn slack app into the Dark :)
 ---
 
 ## How to
-- Go to /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static
-- Edit ssb-interop.js to add the following lines:
+- Go to
+```
+/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static
+```
+- Edit `ssb-interop.js to add the following lines:
 
 
 ```
