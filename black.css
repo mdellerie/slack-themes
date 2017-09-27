@@ -586,10 +586,6 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #im-list li.member.active .presence.away, #starred-list li.member.active .presence.away { text-shadow: 1px 1px rgba(0, 0, 0, 0.15); }
 
-.presence.active {
-    color: #579ace;
-}
-
 #file_member_filter { background: #000; }
 
 #client-ui .member_filter { border: 1px solid #545454; }
@@ -697,6 +693,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 #im_title.away { color: #949494; }
 
 .channel_header_info .star, .channel_header_info button { color: #949494; }
+
+.channel_header_info .presence.active {  color: #579ace; }
 
 .channel_title_info { background: #222; color: #949494; }
 
