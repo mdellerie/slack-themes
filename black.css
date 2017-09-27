@@ -586,6 +586,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #im-list li.member.active .presence.away, #starred-list li.member.active .presence.away { text-shadow: 1px 1px rgba(0, 0, 0, 0.15); }
 
+.presence.active {
+    color: #579ace;
+}
+
 #file_member_filter { background: #000; }
 
 #client-ui .member_filter { border: 1px solid #545454; }
