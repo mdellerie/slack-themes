@@ -778,7 +778,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .flexbox_client #search_container .icon_close { color: #949494; }
 
-#search_tab .heading { background: #222; }
+.feature_sli_file_search #search_results_container .heading {  background-color: #222; }
+
+#search_filters .tab {  background-color: #222; }
+
+.feature_sli_file_search #search_results.all .search_message_result, .feature_sli_file_search #search_results.messages .search_message_result {  background-color: #222; }
 
 .feature_sli_file_search #search_results.all, .feature_sli_file_search #search_results.messages {
     background-color: #222;
