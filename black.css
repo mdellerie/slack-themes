@@ -19,7 +19,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #44bae9; }
 .c-message__sender a,
 .c-message--light .c-message__sender .c-message__sender_link,
 .c-message__sender_link,
-.c-message__body  { color: #e6e6e6; }
+.c-message__body  { color: #e6e6e6 !important; }
 
 .c-message_list__day_divider__label__pill {
     background: #404040; color: #bebebe;
