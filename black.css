@@ -14,6 +14,7 @@ h1 a { color: #44bae9; }
 
 h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #44bae9; }
 
+.c-message__content_header,
 .c-message__sender,
 .c-message__sender_link,
 .c-message__body  { color: #e6e6e6; }
