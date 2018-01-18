@@ -14,7 +14,22 @@ h1 a { color: #44bae9; }
 
 h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #44bae9; }
 
-.c-message__body  { background: #222; color: #e6e6e6; }
+.c-message__body  { color: #e6e6e6; }
+
+.c-message--sli_highlight_negative {
+    background: #3a3a3a;
+}
+.c-message--ephemeral {
+    background: #3a3a3a;
+}
+.c-message--sli_highlight_negative .c-message__label {
+    background-color: #3a3a3a;
+}
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
+.c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
+.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background-color: #3a3a3a;
+}
 
 .bordered { border: 1px solid #363636; }
 
