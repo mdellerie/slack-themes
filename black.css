@@ -13,8 +13,12 @@ h1, h2, h3, h4 { color: #e6e6e6; }
 h1 a { color: #44bae9; }
 
 h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #44bae9; }
-
+.c-message__sender_link,
 .c-message__body  { color: #e6e6e6; }
+
+.c-message_list__day_divider__label__pill {
+    background: #404040; color: #bebebe;
+}
 
 .c-message--sli_highlight_negative {
     background: #3a3a3a;
