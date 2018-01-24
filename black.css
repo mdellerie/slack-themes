@@ -38,6 +38,9 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #44bae9; }
 .c-message--ephemeral {
     background: #3a3a3a;
 }
+.c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover{
+    background-color: #8d8312;
+}
 .c-message--sli_highlight_negative .c-message__label {
     background-color: #3a3a3a;
 }
