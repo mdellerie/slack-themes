@@ -25,6 +25,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #028DA6; }
 .c-usergroup__handle,
 #select_share_channels .lazy_filter_select .lfs_item,
 #select_share_channels .lazy_filter_select .lfs_value .lfs_item.selected,
+.p-message_pane__foreword__description, .p-message_pane__limited_history_alert,
 .c-message__body  { color: #e6e6e6; }
 .c-message--light .c-message__sender .c-message__sender_link  { color: #e6e6e6; }
 
