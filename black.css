@@ -1213,7 +1213,9 @@ code { background-color: #1111; border: 1px solid #363636; color: #c25; }
 
 .file_container .CodeMirror .CodeMirror-code > div::before, .file_container .CodeMirror .sssh-line::before, .file_container .sssh-code .CodeMirror-code > div::before, .file_container .sssh-code .sssh-line::before { background-color: #363636; border-right: 1px solid #363636; color: #949494; }
 
-.CodeMirror { background: #000; border: 1px solid #363636; color: #e6e6e6; }
+.CodeMirror { background: #404040; border: 1px solid #363636; color: #e6e6e6; }
+
+.c-snippet__code .CodeMirror{ color: #e6e6e6; }
 
 .CodeMirror pre { background: transparent !important; }
 
