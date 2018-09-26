@@ -3378,3 +3378,5 @@ body > .section.main { background: #222; box-shadow: none; }
 .calendar_day.future { background-color: #828282; }
 
 .incident_update .time { color: #e6e6e6; }
+
+ql-editor, .ql-blank { background-color: #828282; color: #e6e6e6;}
